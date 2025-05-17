@@ -25,6 +25,19 @@ header.navbar {
   align-items: center;
 }
 
+/* Base styles */
+#navbar {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.4s ease-out;
+}
+
+/* When menu is open */
+#navbar.open {
+  max-height: 500px; /* or enough to show all items */
+}
+
+
 .active {
   background-color: var(--eco-green);
   margin: 0;
@@ -93,6 +106,7 @@ footer {
   font-size: 2rem;
   color: white;
   cursor: pointer;
+  position: relative;
 }
 
 @media (max-width: 768px) {
