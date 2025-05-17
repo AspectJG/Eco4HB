@@ -39,6 +39,16 @@ header.navbar {
   left: 10%;
 }
 
+.logo-img {
+  height: 130px;
+  width: auto;
+}
+
+.logo {
+  display: inline-block;
+}
+
+
 .nav-links {
   list-style: none;
   display: flex;
