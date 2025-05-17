@@ -1,6 +1,7 @@
 /* css/style.css */
 
 :root {
+  --eco-green: #4caf50;
   --main-color: #1e293b;
   --accent-color: #fbbf24;
   --bg-light: #f9fafb;
@@ -25,11 +26,9 @@ header.navbar {
 }
 
 .active {
-  background-color: var(--accent-color);
+  background-color: var(--eco-green);
   margin: 0;
   font-size: 1.5rem;
-  position: absolute;
-
 }
 
 .navbar h1 {
@@ -53,7 +52,9 @@ header.navbar {
   list-style: none;
   display: flex;
   gap: 1rem;
-
+justify-content: center;
+  align-items: center;
+  margin-left: auto;
 }
 
 .nav-links a {
@@ -63,7 +64,7 @@ header.navbar {
 }
 
 .nav-links a:hover {
-  color: var(--accent-color);
+  color: var(--eco-green);
 }
 
 section {
