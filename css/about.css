@@ -1,0 +1,15 @@
+.logo-aboutmain {
+  position: relative;
+  overflow: hidden;
+  height: auto;
+  width: 100%;
+}
+
+.logo-about {
+  width: 40%;
+  height: auto;
+  max-height: 80vh;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
