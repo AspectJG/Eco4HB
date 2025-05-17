@@ -29,7 +29,7 @@ header.navbar {
   margin: 0;
   font-size: 1.5rem;
   position: absolute;
-  left: 10%;
+
 }
 
 .navbar h1 {
@@ -53,8 +53,7 @@ header.navbar {
   list-style: none;
   display: flex;
   gap: 1rem;
-  justify-content: center;
-  align-items: center;
+
 }
 
 .nav-links a {
