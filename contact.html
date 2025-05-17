@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact - Eco4HB</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <header class="navbar">
+    <h1>Eco4HB</h1>
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    <nav id="navbar">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Contact Us</h2>
+    <p>Fill out the form below or email us at <a href="mailto:info@eco4hb.com">info@eco4hb.com</a></p>
+
+    <form id="contact-form" action="https://formspree.io/f/yourformid" method="POST">
+      <label for="name">Name *</label><br />
+      <input type="text" id="name" name="name" required /><br /><br />
+
+      <label for="email">Email *</label><br />
+      <input type="email" id="email" name="_replyto" required /><br /><br />
+
+      <label for="message">Message *</label><br />
+      <textarea id="message" name="message" rows="5" required></textarea><br /><br />
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Eco4HB – All rights reserved</p>
+  </footer>
+</body>
+</html>
