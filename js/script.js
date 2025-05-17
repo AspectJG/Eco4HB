@@ -1,11 +1,8 @@
-// js/script.js
-
-// Mobile Menu Toggle
 document.addEventListener("DOMContentLoaded", () => {
-  const menuToggle = document.getElementById("menu-toggle");
+  const toggle = document.getElementById("menu-toggle");
   const navbar = document.getElementById("navbar");
 
-  menuToggle.addEventListener("click", () => {
+  toggle.addEventListener("click", () => {
     navbar.classList.toggle("open");
   });
 });
